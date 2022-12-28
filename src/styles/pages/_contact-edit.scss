@@ -1,0 +1,69 @@
+.edit-contact-container {
+    height: calc(100vh - 180px);
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .contact-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+
+        h2 {
+            font-size: rem(24px);
+            font-family: WorkSans-Semibold;
+            color: $lightBlue1;
+        }
+
+        .contact-img {
+            width: rem(100px);
+            height: auto;
+            border-radius: rem(12px);
+
+            img {
+                border-radius: rem(12px);
+                box-shadow: $boxShadow;
+                height: 100%;
+            }
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: rem(16px);
+            font-size: 14px;
+            margin: 14px 0;
+
+            button {
+                @include mainBtn($bgc: $darkBlue2, $bgcH: $darkBlue2Hover);
+            }
+
+            label {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                input {
+                    @include mainInput();
+                    margin-left: 8px;
+                }
+            }
+        }
+
+        .action {
+            .back-btn {
+                @include mainBtn();
+                margin-bottom: rem(15px);
+            }
+
+            .delete-btn {
+                @include mainBtn($bgc: $darkBlue2, $bgcH: $darkBlue2Hover);
+                margin-bottom: rem(15px);
+            }
+        }
+    }
+}

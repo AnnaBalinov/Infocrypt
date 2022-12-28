@@ -1,0 +1,9 @@
+.popup-message-container {
+    background-color: $darkBlue2;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    padding: rem(22px);
+    border-top-left-radius: rem(4px);
+    border-top-right-radius: rem(4px);
+}

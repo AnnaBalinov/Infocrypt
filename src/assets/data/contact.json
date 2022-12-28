@@ -1,0 +1,108 @@
+[
+    {
+        "_id": "5a56640269f443a5d64b32ca",
+        "name": "Anna Balinov",
+        "email": "Annabalinov@gmail.com",
+        "phone": "+972-52-3822658",
+        "image": "https://media-exp1.licdn.com/dms/image/D4D03AQExP76xZS6ppw/profile-displayphoto-shrink_200_200/0/1668420855539?e=1675900800&v=beta&t=SlPvoBQ54uiNQ7T--jmQZR3vZEN3K8dzIy0Vz3E8Vl4"
+    },
+    {
+        "_id": "5a5664025f6ae9aa24a99fde",
+        "name": "Jeff Bezos",
+        "email": "Jeffbezos@gmail.com",
+        "phone": "+505-50-6538720",
+        "image": "https://m.media-amazon.com/images/M/MV5BYTNlOGZhYzgtMmE3OC00Y2NiLWFhNWQtNzg5MjRhNTJhZGVmXkEyXkFqcGdeQXVyNzg5MzIyOA@@._V1_.jpg"
+    },
+    {
+        "_id": "5a56640252d6acddd183d319",
+        "name": "Oprah Winfrey",
+        "email": "Oprahwinfrey@gmail.com",
+        "phone": "+223-80-6844221",
+        "image": "https://www.biography.com/.image/t_share/MTY2NTIzMDQzOTIzODk1NTM4/oprah-photo-by-vera-anderson_wireimage.jpg"
+    },
+    {
+        "_id": "5a566402ed1cf349f0b47b4d",
+        "name": "Christine Lagarde",
+        "email": "Christinelagarde@gmail.com",
+        "phone": "+33-10-8726555",
+        "image": "https://cdn.britannica.com/66/151366-050-5F291796/Christine-Lagarde.jpg"
+    },
+    {
+        "_id": "5a566402abce24c6bfe4699d",
+        "name": "Michelle Yeoh",
+        "email": "Michelleyeoh@gmail.com",
+        "phone": "+11-11-7620912",
+        "image": "https://pyxis.nymag.com/v1/imgs/076/407/fd828c25aae023bf047971d91dc53876ff-6-michelle-yeoh-makeup-lede.jpg"
+    },
+    {
+        "_id": "5a566402a6499c1d4da9220a",
+        "name": "Gautam Adani",
+        "email": "Gautamadani@gmail.com",
+        "phone": "+063-00-1054391",
+        "image": "https://imageio.forbes.com/specials-images/imageserve/6345ac3b833e07cd89aa314c/0x0.jpg?format=jpg&crop=1813,1815,x473,y95,safe&height=416&width=416&fit=bounds"
+    },
+    {
+        "_id": "5a566402f90ae30e97f990db",
+        "name": "Andy Jassy",
+        "email": "Andyjassy68@gmail.com",
+        "phone": "+505-09-3329908",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Andy_Jassy.jpg"
+    },
+    {
+        "_id": "5a5664027bae84ef280ffbdf",
+        "name": "Holder Bean",
+        "email": "Holderbean@gmail.com",
+        "phone": "+502-03-1212412",
+        "image": "https://www.okayplayer.com/wp-content/uploads/2014/08/action-bronson-easy-rider-video-feat.jpg"
+    },
+    {
+        "_id": "5a566402e3b846c5f6aec652",
+        "name": "Sally Rooney",
+        "email": "Sallyrooney@gmail.com",
+        "phone": "+353-99-111542",
+        "image": "https://assets.vogue.com/photos/61101f293cc05016c6ffc508/1:1/w_2631,h_2631,c_limit/Final-PO21_04_VOGUE_SALLYROONEY_Shot01_-162.jpeg"
+    },
+    {
+        "_id": "5a56640272c7dcdf59c3d411",
+        "name": "Simu Liu",
+        "email": "Simuliu@gmail.com",
+        "phone": "+12-54-221541",
+        "image": "https://www.colorado.edu/today/sites/default/files/styles/medium/public/article-image/liu_s-photo.jpg?itok=l-mJPK65"
+    },
+    {
+        "_id": "5a5664029a8dd82a6178b15f",
+        "name": "Meghan Markle",
+        "email": "Meghanmarkle@gmail.com",
+        "phone": "+123-123-001123",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/meghan-markle-is-seen-ahead-of-her-visit-with-prince-harry-news-photo-1588879443.jpg?crop=0.716xw:1.00xh;0.146xw,0&resize=1200:*"
+
+    },
+    {
+        "_id": "5a5664028c096d08eeb13a8a",
+        "name": "Steven Spielberg",
+        "email": "Stevenspielberg@gmail.com",
+        "phone": "+131-66-32176866",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Steven_Spielberg_by_Gage_Skidmore.jpg"
+    },
+    {
+        "_id": "5a5664026c53582bb9ebe9d1",
+        "name": "Peggy Gou",
+        "email": "Peggygou@gmail.com",
+        "phone": "+64-954-0012465",
+        "image": "https://i.guim.co.uk/img/media/77ab08c5c2cae70ed5e95248ec2b75bc0e27e8ce/0_257_5210_3126/master/5210.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=d935fea7c43be562a488d300328ab36f"
+    },
+    {
+        "_id": "5a56640298ab77236845b82b",
+        "name": "Nina Kraviz",
+        "email": "Ninamraviz@gmail.com",
+        "phone": "+502-11-97491325",
+        "image": "https://i1.wp.com/electronicgroove.com/wp-content/uploads/2021/07/Nina-Kraviz.jpg?fit=940%2C627&ssl=1"
+    },
+    {
+        "_id": "5a56640208fba3e8ecb97305",
+        "name": "Lionel Messi",
+        "email": "Lionelmessi@renovize.com",
+        "phone": "+181-425-652557",
+        "image": "https://pbs.twimg.com/media/FTFP3agUsAAJItt.jpg:large"
+    }
+]

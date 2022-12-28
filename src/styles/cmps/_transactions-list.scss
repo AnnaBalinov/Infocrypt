@@ -1,0 +1,45 @@
+.transactions-cmp {
+    text-align: center;
+    margin: 20px 0;
+
+    .title {
+        font-family: WorkSans-Semibold;
+        font-size: 1.2rem;
+    }
+
+    .transaction-container {
+        font-family: WorkSans-Regular;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        margin: 8px 0;
+        padding: 8px;
+        background-color: $darkBlue2;
+        box-shadow: $boxShadow;
+        width: 304px;
+        height: 60px;
+
+        li {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: rem(14px);
+        }
+
+        .type{
+            font-family: WorkSans-Semibold;
+            color: $lightBlue1;
+        }
+    }
+
+    .positive {
+        color: #54ea8b;
+    }
+
+    .negative {
+        color: #fa83b0;
+    }
+}

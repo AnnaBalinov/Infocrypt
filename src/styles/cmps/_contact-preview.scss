@@ -1,0 +1,26 @@
+.contact-preview {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 10px 2px;
+    padding: 12px;
+    box-shadow: $boxShadow;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: $darkBlue2;
+
+    .contact-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+        width: 70%;
+
+        .name {
+            text-transform: capitalize;
+        }
+    }
+
+    &:hover{
+        background-color: $darkBlue2Hover;
+    }
+}

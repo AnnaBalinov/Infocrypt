@@ -1,0 +1,139 @@
+.wallet-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin: 20px 0;
+
+    .wallet-container {
+        background: $walletBackground;
+        box-shadow: $boxShadow;
+        border-radius: 12px;
+        width: 304px;
+        height: 180px;
+        padding: 22px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .wallet-front {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 14px;
+
+            .title-1 {
+                letter-spacing: 0.1rem;
+                font-size: 0.8rem;
+            }
+
+            .balance-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+
+                .title-2 {
+                    font-size: 1.2rem;
+                }
+
+                .number {
+                    letter-spacing: 0.1rem;
+                    font-size: 1.5rem;
+                    box-shadow: $boxShadow;
+                    border-radius: 12px;
+                    padding: 8px 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+            .id {
+                width: 100%;
+                cursor: pointer;
+                border: 1px solid #fff;
+                border-radius: 8px;
+                font-size: 14px;
+                padding: 6px 12px;
+                display: flex;
+                gap: 8px;
+                align-items: center;
+                justify-content: space-between;
+                background-color: #444d6d26;
+
+                &:hover {
+                    background-color: #444d6d34;
+                    .material-icons {
+                        color: $lightBlue1;
+                    }
+                }
+            }
+        }
+
+        .wallet-back {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+
+            .inp-btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                width: 100%;
+
+                input {
+                    @include mainInput();
+                    width: 144px;
+                    height: 32px;
+                    text-align: center;
+                }
+
+                button {
+                    border-radius: 8px;
+                    border: none;
+                    width: 32px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    box-shadow: $boxShadow;
+
+                    &:hover {
+                        span {
+                            color: #da7efe;
+                        }
+                    }
+
+                    span {
+                        width: 18px;
+                        height: 18px;
+                        font-weight: 600;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #5a8df9;
+                    }
+                }
+            }
+        }
+    }
+
+    .add-balance-container {
+        button {
+            @include mainBtn();
+            .flip-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 4px;
+            }
+        }
+    }
+}

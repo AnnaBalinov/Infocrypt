@@ -1,0 +1,26 @@
+.contact-filter {
+    display: flex;
+    align-items: center;
+
+    .search-icon {
+        color: $lightBlue1;
+        margin-right: 8px;
+    }
+}
+
+@media screen and (min-width: 541px) {
+    .contact-filter {
+        input {
+            @include mainInput();
+        }
+    }
+}
+
+@media screen and (max-width: 541px) {
+    .contact-filter {
+        input {
+            @include mainInput();
+            width: 148px;
+        }
+    }
+}

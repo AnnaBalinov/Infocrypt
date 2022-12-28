@@ -1,0 +1,208 @@
+//////in-contact-details-page//////
+.contact-details-container {
+    .transfer-modal {
+        position: fixed;
+        top: 90px;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background-color: $darkBlue1;
+        display: flex;
+        justify-content: center;
+
+        form {
+            position: fixed;
+            top: 30%;
+            z-index: 2;
+            height: 50%;
+            width: 50%;
+            box-shadow: $boxShadow;
+            background-color: #515e8f;
+            border-radius: 12px;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 22px;
+
+            label {
+                font-size: rem(18px);
+            }
+
+            input {
+                @include mainInput;
+                background-color: $darkBlue2;
+                width: 140px;
+                height: 40px;
+                font-size: 18px;
+                margin-left: 8px;
+            }
+
+            button {
+                @include mainBtn;
+                width: 100px;
+            }
+
+            .ex-btn {
+                @include mainBtn;
+                width: auto;
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 12px;
+                margin: 12px;
+
+                .material-icons {
+                    font-size: 18px;
+                }
+            }
+        }
+
+        // box-shadow: $boxShadow;
+        // right: 60px;
+        // top: 260px;
+        // overflow: auto;
+
+        // animation-name: animation;
+        // animation-duration: 0.4s;
+    }
+
+    /* Animation */
+    // @keyframes animation {
+    //     from {
+    //         right: -300px;
+    //         opacity: 0;
+    //     }
+    //     to {
+    //         right: 60px;
+    //         opacity: 1;
+    //     }
+    // }
+
+    .transfers-btn {
+        @include mainBtn();
+    }
+}
+
+// @media screen and (min-width: 640px) {
+//     .contact-details-container {
+//         .transfer-modal {
+//             form {
+//                 height: 320px;
+//                 width: 620px;
+//             }
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 640px) {
+//     .contact-details-container {
+//         .transfer-modal {
+//             form {
+//                 height: 420px;
+//                 width: 320px;
+//             }
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 340px) {
+//     .contact-details-container {
+//         .transfer-modal {
+//             form {
+//                 height: 420px;
+//                 width: 320px;
+//             }
+//         }
+//     }
+// }
+
+//////in-contact-list-page//////
+.contact-preview {
+    .transfer-funds-container {
+        .transfer-modal {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .ex-btn {
+                @include mainBtn;
+                width: auto;
+                padding: 12px;
+
+                .material-icons {
+                    font-size: 18px;
+                }
+            }
+
+            form {
+                font-size: rem(16px);
+                display: flex;
+                align-items: center;
+                // flex-direction: row-reverse;
+                gap: 12px;
+
+                h2 {
+                    display: none;
+                }
+
+                label {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                }
+
+                input {
+                    @include mainInput;
+                    text-align: center;
+                    width: 100px;
+                    height: 36px;
+                    margin-left: 8px;
+                }
+
+                button {
+                    @include mainBtn;
+                    width: 80px;
+                }
+            }
+        }
+
+        .transfers-btn {
+            display: none;
+        }
+    }
+
+    .q-trans-modal {
+        margin-left: auto;
+        animation-name: animation;
+        animation-duration: 0.4s;
+    }
+
+    @keyframes animation {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+}
+@media screen and (min-width: 390px) {
+    .contact-preview {
+        &:hover {
+            .transfers-btn {
+                display: flex;
+                margin-left: auto;
+                @include mainBtn();
+                font-size: rem(14px);
+            }
+        }
+    }
+}

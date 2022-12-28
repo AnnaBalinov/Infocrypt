@@ -1,0 +1,30 @@
+.contacts-page {
+    padding: rem(40px) rem(50px);
+
+    .contacts-bar {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+        .add-contact-btn {
+            @include mainBtn();
+        }
+    }
+}
+
+@media screen and (min-width: 542px) {
+    .contacts-bar {
+        justify-content: space-between;
+        margin-left: rem(2px);
+        margin-bottom: rem(25px);
+    }
+}
+
+@media screen and (max-width: 542px) {
+    .contacts-bar {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-content: center;
+        gap: 12px;
+    }
+}

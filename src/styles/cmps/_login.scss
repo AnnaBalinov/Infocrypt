@@ -1,0 +1,72 @@
+.welcome-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(-20deg, #25054d 0%, #060817 100%);
+
+    .Login-container {
+        height: calc(100vh - rem(86px));
+        flex: 60%;
+        display: flex;
+        gap: rem(30px);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .title {
+            font-family: WorkSans-SemiBold;
+            font-size: rem(40px);
+            color: #9ad3d6;
+        }
+
+        .username {
+            font-family: WorkSans-SemiBold;
+            font-size: rem(22px);
+        }
+        .create-user {
+            display: flex;
+            gap: 4px;
+
+            input {
+                font-family: WorkSans-SemiBold;
+                font-size: 14px;
+
+                text-align: center;
+                text-transform: capitalize;
+                padding: rem(8px);
+                border-radius: rem(4px);
+                border: 1px solid rgb(0, 0, 0);
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            button {
+                font-family: WorkSans-SemiBold;
+                font-size: 14px;
+                margin-left: auto;
+                padding: rem(8px);
+
+                border-radius: 4px;
+                border: 1px solid rgb(0, 0, 0);
+
+                background-color: $darkBlue2;
+                &:hover {
+                    background-color: $darkBlue3;
+                }
+            }
+        }
+    }
+
+    .welcome-img {
+        height: calc(100vh - rem(86px));
+
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: auto;
+            height: 100%;
+        }
+    }
+}
