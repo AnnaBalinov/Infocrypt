@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Infocrypt/static/css/main.ab895d67.css",
+    "main.js": "/Infocrypt/static/js/main.8465d55f.js",
+    "static/media/welcome-login.png": "/Infocrypt/static/media/welcome-login.a26b56b9735be6828514.png",
+    "static/media/WorkSans-SemiBold.ttf": "/Infocrypt/static/media/WorkSans-SemiBold.8988ce2e3e8957a63db8.ttf",
+    "static/media/WorkSans-Regular.ttf": "/Infocrypt/static/media/WorkSans-Regular.ca211a55c3d9d8690c63.ttf",
+    "static/media/Poppins-Regular.ttf": "/Infocrypt/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Bold.ttf": "/Infocrypt/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/ethereum.png": "/Infocrypt/static/media/ethereum.bad5cea46aa1b2429261.png",
+    "static/media/bitcoin.png": "/Infocrypt/static/media/bitcoin.72f4c1116b3aacd28484.png",
+    "static/media/ripple.png": "/Infocrypt/static/media/ripple.e07ed3c22c3681c7b6f0.png",
+    "static/media/litecoin.png": "/Infocrypt/static/media/litecoin.45da2c5a3e9fc0b0bd49.png",
+    "static/media/DMSans-Regular.ttf": "/Infocrypt/static/media/DMSans-Regular.4ee96395e07a04577aab.ttf",
+    "static/media/crypto-logo-header.png": "/Infocrypt/static/media/crypto-logo-header.9a2da5cb6d60969c70e9.png",
+    "index.html": "/Infocrypt/index.html",
+    "main.ab895d67.css.map": "/Infocrypt/static/css/main.ab895d67.css.map",
+    "main.8465d55f.js.map": "/Infocrypt/static/js/main.8465d55f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab895d67.css",
+    "static/js/main.8465d55f.js"
+  ]
+}
