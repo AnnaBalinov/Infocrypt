@@ -5,11 +5,11 @@ The app also offers full CRUD functionality for managing contacts,
 allowing users to add, update, and delete contacts as needed. 
 
 ## Technologies Used:
-ReactJS
-Redux
-HTML
-CSS
-Sass
+- ReactJS
+- Redux
+- HTML
+- CSS
+- Sass
 
 ## Link
 https://annabalinov.github.io/Infocrypt
