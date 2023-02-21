@@ -8,8 +8,7 @@ allowing users to add, update, and delete contacts as needed.
 - ReactJS
 - Redux
 - HTML
-- CSS
-- Sass
+- SCSS
 
 ## Link
 <a href="https://annabalinov.github.io/Infocrypt" target="blank"> Infocrypt </a>
