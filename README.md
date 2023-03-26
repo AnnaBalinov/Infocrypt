@@ -11,5 +11,5 @@ allowing users to add, update, and delete contacts as needed.
 - SCSS
 
 ## Link
-<a href="https://annabalinov.github.io/Infocrypt" target="blank"> Infocrypt </a>
+<a href="https://annabalinov.github.io/Infocrypt" target="blank"> Infocrypt  </a>
 
